@@ -10,7 +10,7 @@ export default defineConfig({
     workers: process.env.CI ? 5 : 1,
     reporter: 'html',
     use: {
-        trace: 'on-first-retry',
+        trace: 'retain-on-failure',
         baseURL: 'https://en.wikipedia.org'
     },
 

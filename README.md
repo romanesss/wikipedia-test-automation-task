@@ -81,3 +81,14 @@ npx playwright show-report /path/to/extracted/playwright-report
 ```
 
 CI reports are retained for 30 days.
+
+## Important Note:
+Test works locally, but doesn't work on the CI/CD due to Wikipedia bot detection.
+
+Local run:
+<img width="1464" height="920" alt="image" src="https://github.com/user-attachments/assets/146306da-07ff-4200-8bbd-d3f5d21145e3" />
+
+CI/CD run:
+<img width="1167" height="1348" alt="image" src="https://github.com/user-attachments/assets/9df8d357-9ce6-4194-8fe2-0568648d39e6" />
+
+

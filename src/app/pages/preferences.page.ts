@@ -3,7 +3,7 @@ import { LANGUAGE_CODES } from '../../data/language-codes';
 
 export type LanguageCode = (typeof LANGUAGE_CODES)[number];
 
-export class PreferencesPage extends BasePage {
+export class Preferences extends BasePage {
     public url = 'wiki/Special:Preferences';
 
     public languageSelectWidget = this.page.locator('[class*="languageSelectWidget"]');
